@@ -115,3 +115,28 @@
 .crossed-text{
     text-decoration: line-through;
 }
+
+/*footer*/
+
+.background-footer{
+    width: 100%;
+    margin: 0 auto;    
+    background-color: rgb(31, 30, 30);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.container-footer{
+    width: 75%;
+    margin: 0 auto;   
+}
+
+footer .row{
+    color: white;
+}
+
+footer .col{
+    padding: 5px;
+    font-size: 17px;
+}
