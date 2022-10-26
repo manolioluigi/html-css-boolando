@@ -50,11 +50,12 @@
     display: flex;
     justify-content: space-evenly;
     position: relative;
+    display: inline-block;
 }
 
 .content img{
     max-width: 95%;
-    position: relative;
+    
 }
 
 .heart{
@@ -139,4 +140,22 @@ footer .row{
 footer .col{
     padding: 5px;
     font-size: 17px;
+}
+
+/*overlay*/
+
+.overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.content:hover .overlay{
+    display: inline;
+}
+
+.content div{
+    z-index: 3;
 }
