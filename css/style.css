@@ -4,17 +4,23 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /*header*/
 
 .container-header{
     width: 100%;
     height: 50px;
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color: rgb(255, 102, 0);
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    z-index: 4;
 }
 
 .row-header{
@@ -33,7 +39,7 @@
 
 .container{
     width: 75%;
-    margin: 0 auto;
+    margin: 80px auto auto auto;
 }
 
 .row{
@@ -158,4 +164,8 @@ footer .col{
 
 .content div{
     z-index: 3;
+}
+
+.heart:hover {
+    color:red;
 }
