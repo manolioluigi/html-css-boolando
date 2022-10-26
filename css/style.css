@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-.container{
-    width: 75%;
-    margin: 0 auto;
-}
+/*header*/
 
 .container-header{
     width: 100%;
@@ -17,6 +14,7 @@
     background-color: rgb(255, 102, 0);
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .row-header{
@@ -27,12 +25,93 @@
     color: white;
 }
 
+#logo{
+    max-width: 100px;
+}
+
+/*main*/
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
 .col-33{
     width: calc(100% / 3);
     display: flex;
 }
 
-#logo{
-    max-width: 100px;
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
 }
 
+.content img{
+    max-width: 95%;
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red{
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+    position: absolute;
+    bottom: 30px;
+    left: 8px;
+}
+
+.green{
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+    position: absolute;
+    bottom: 30px;
+    left: 55px;
+}
+
+.green-left{
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+    position: absolute;
+    bottom: 30px;
+    left: 8px;
+}
+
+.content-text{
+    padding-left: 8px;
+    margin-bottom: 40px;
+}
+
+.red-text{
+    color: red;
+    font-weight: bold;
+}
+
+.crossed-text{
+    text-decoration: line-through;
+}
